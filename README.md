@@ -22,7 +22,8 @@ Resource packs for our Minecraft 26.3 server. Players get them automatically whe
 - **Light that follows the game's light** - cool shade wherever the sky is blocked (under trees, roofs, overhangs),
   warm sunlit surfaces, and torch light in round, soft pools that fade from warm white to an orange glow into shadow.
 
-Works in plain vanilla 26.3 through core shaders and model tweaks only.
+Works in plain vanilla 26.3 through core shaders and model tweaks only, and looks the same with the Sodium
+performance mod (the pack also carries Sodium versions of the block shaders).
 
 ### Credits
 
@@ -31,6 +32,8 @@ Works in plain vanilla 26.3 through core shaders and model tweaks only.
 - Soft clouds ported to the 26.3 shader format from **SoftyClouds** by Falanta Fantomo (MIT License,
   <https://modrinth.com/resourcepack/softyclouds>), with sunset tinting added.
 - The alpha-marker idea for waving comes from **Windy Leaves** and **Wavy Water** on Modrinth; re-implemented for 26.3.
+- The Sodium block shaders (`assets/sodium/shaders/blocks/`) are Sodium's own shaders by CaffeineMC
+  (PolyForm Shield License 1.0.0, <https://github.com/CaffeineMC/sodium>) with our effects added.
 - The shading pack's idea comes from **Not Enough Shading** (CC-BY-SA 4.0,
   <https://modrinth.com/resourcepack/not-enough-shading>); its models are fresh copies of Minecraft 26.3's own.
 
